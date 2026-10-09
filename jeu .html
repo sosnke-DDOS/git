@@ -1,0 +1,27 @@
+    <!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flappy bird</title>
+         <link rel="stylesheet" href="flappy.css">
+    </head>
+    <body>
+        <h1>flappy bird</h1>
+        <div id="top-bar">
+            <span id="level-label">NIVEAU 1</span>
+            <span>Score: <strong id="live-score">0</strong> / <strong id="target-score">1</strong></span>
+        </div>
+        <div id="game-wrapper">
+            <canvas id="canvas" width="360" height="580"></canvas>
+            <div id="overlay">
+                <h2 id="overlay-title">Pret?</h2>
+                <p id="overlay-sub">Appuie sur la barre d'espace</p>
+            <div id="score-display" style="display:none">
+                Score:<strong id="final-score">0</strong>
+            </div>
+            <button id="start-btn"> JOUER</button>
+        </div>
+        </div>
+         <script src="flappy.js"> </script>
+    </body>
+</html>
